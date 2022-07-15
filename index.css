@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+
+:root{
+    --claro: #F9F2ED;
+    --celeste: #3AB0FF;
+    --naranja: #FFB562;
+    --rosa: #F87474;
+}
+
+.form{
+    width: 30rem;
+    margin: 0 auto;
+    margin-top: 20rem;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px var(--celeste);
+}
+.form2{
+    width: 30rem;
+    margin: 0 auto;
+    margin-top: 3rem;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px var(--celeste);
+}
+.form label{
+    display: block;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: var(--celeste);
+    font-weight: bold;
+    text-align: center;
+}
+.form input{
+    width: 50%;
+    display: block;
+    margin: 1rem auto;
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-align: center;
+}
+.form select{
+    display: block;
+    margin: 1rem auto;
+    font-size: 2rem;
+}
+.button, .buttonDia{
+    background-color: var(--celeste);
+    text-transform: uppercase;
+    border: none;
+    padding: 1rem 2rem;
+    color: white;
+    cursor: pointer;
+    margin-top: 3rem !important;
+    transition: .2s ease-in;
+}
+.button:hover{
+    background-color: var(--naranja);
+}
